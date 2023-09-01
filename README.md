@@ -4,8 +4,7 @@ Code Louisville Data Analysis Exercise
 
 ## Overview
 
-In this exercise we will write a sql query against a database of movies and 
-write the results to a CSV file. This exercise is based on the [Codecademy Learn SQL](https://www.codecademy.com/enrolled/courses/learn-sql) 
+In this exercise we will write a sql query against a database of movies. This exercise is based on the [Codecademy Learn SQL](https://www.codecademy.com/enrolled/courses/learn-sql) 
 "Queries" module.
 
 ### `movies` Table
@@ -30,15 +29,15 @@ horror genre that were released in or before 1985. Note that the column names in
 | 109 | Jaws 2 | 5.7 |
 | 222 | Dawn of the Dead | |
 
-You will write your query in the `horror_movies.sql` file. Running the `run_sql.py` script will execute your query and save the results to `data/movies.csv`.
+You will write your query in the `sql/horror_movies.sql` file. Running the `run_sql.py` script will execute your query and save the results to `data/movies.csv`.
 
 ## Instructions
 
 1. Clone the repo to your machine.
 1. Create a virtual environment and install the packages listed in the `requirements.txt` file.
-1. Add your SQL query to the `horror_movies.sql` file.
+1. Add your SQL query to the `sql/horror_movies.sql` file.
 1. Run the `run_sql.py` script.
-1. Add, Commit, and Push your `horror_movies.sql` and `movies.csv` files back to GitHub.
+1. Add, Commit, and Push your `sql/horror_movies.sql` and `data/movies.csv` files back to GitHub.
 
 ###  Virutal Environment Instructions
 
