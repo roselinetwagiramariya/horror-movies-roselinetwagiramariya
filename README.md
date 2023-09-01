@@ -5,7 +5,7 @@ Code Louisville Data Analysis Exercise
 ## Overview
 
 In this exercise we will write a sql query against a database of movies and 
-write the results to a CSV file. This exercise is based on the Learn SQL 
+write the results to a CSV file. This exercise is based on the [Codecademy Learn SQL](https://www.codecademy.com/enrolled/courses/learn-sql) 
 "Queries" module.
 
 ### `movies` Table
