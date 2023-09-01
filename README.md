@@ -27,7 +27,7 @@ horror genre that were released in or before 1985. Note that the column names in
 | 100 | Gremlins | 7.2 |
 | 116 | The Amityville Horror | 6.2 |
 | 109 | Jaws 2 | 5.7 |
-| 222 | Dawn of the Dead | |
+| 222 | Dawn of the Dead | 5.2 |
 
 You will write your query in the `sql/horror_movies.sql` file. Running the `run_sql.py` script will execute your query and save the results to `data/movies.csv`.
 
