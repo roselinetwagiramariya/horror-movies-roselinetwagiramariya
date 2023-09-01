@@ -2,6 +2,7 @@ import sqlite3
 from sqlite3 import Error
 import pandas as pd
 import argparse
+import os
 
 # Python script to execute a SQL statement and store the results in a CSV file.
 #
@@ -76,10 +77,17 @@ def main() -> None:
     
     if conn is not None:
         movies = pd.read_sql(sql, conn)
+
         if len(movies) == 0:
             print("Error: query did not return any results")
             exit(1)
+        csv_dir = os.path.dirname(path_to_csv)
+
+        if not os.path.exists(csv_dir):
+            os.makedirs(csv_dir)
+
         movies.to_csv(path_to_csv, index=False)
+
     else:
         print("Error: Could not connect to database.")
         exit(1)

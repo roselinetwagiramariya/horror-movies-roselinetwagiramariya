@@ -1,4 +1,5 @@
-CREATE TABLE IF NOT EXISTS movies (
+DROP TABLE IF EXISTS movies;
+CREATE TABLE movies (
     id INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
     genre TEXT,
@@ -228,7 +229,7 @@ VALUES
 (219, 'Se7en', 'drama', 1995, 8.6),
 (220, 'Seven', 'drama', 1979, 6.1),
 (221, 'The Good, the Bad and the Ugly', NULL, NULL, NULL),
-(222, 'Dawn of the Dead', 'horror', 1978, NULL),
+(222, 'Dawn of the Dead', 'horror', 1978, 5.2),
 (223, 'Shawn of the Dead', 'comedy', 2004, NULL),
 (224, 'Star Wars: The Force Awakens', 'action', 2015, 8.1),
 (225, 'Star Wars: The Last Jedi', 'action', 2017, NULL),
