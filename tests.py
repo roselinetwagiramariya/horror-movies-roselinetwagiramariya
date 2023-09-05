@@ -18,12 +18,17 @@ def test_columns_exist():
     except Exception as e:
         assert False, e
 
+def test_num_rows():
+    try:
+        df = pd.read_csv(CSV_FILE)
+        assert len(df) == 3
+    except Exception as e:
+        assert False, e
+
 @pytest.mark.parametrize("expected_id,expected_title,expected_rating",
                         [[226,"The Shining",8.4],
                         [100,"Gremlins",7.2],
-                        [116,"The Amityville Horror",6.2],
-                        [109,"Jaws 2",5.7],
-                        [222,"Dawn of the Dead",5.2]])
+                        [116,"The Amityville Horror",6.2]])
 def test_values_exist(expected_id, expected_title, expected_rating):
     try:
         df = pd.read_csv(CSV_FILE)
