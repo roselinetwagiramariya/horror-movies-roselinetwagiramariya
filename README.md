@@ -41,7 +41,8 @@ You will write your query in the `sql/horror_movies.sql` file. Running the
 1. Create a virtual environment and install the packages listed in the 
 `requirements.txt` file (instructions below).
 1. Add your SQL query to the `sql/horror_movies.sql` file.
-1. Run the `run_sql.py` script.
+1. Run the `run_sql.py` script. This script will execute your query against the 
+database and save the results to `data/movies.csv`.
 1. Add, Commit, and Push your `sql/horror_movies.sql` and `data/movies.csv` 
 files back to GitHub.
 
